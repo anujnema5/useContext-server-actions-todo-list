@@ -22,9 +22,9 @@ const AddToDo: FC<Props> = () => {
 
 
   return (
-    <form action={action} ref={inputRef} className='flex gap-1'>
+    <form action={action} ref={inputRef} className='flex gap-2'>
       <input type="text" placeholder='Write your todo' name='todo' className='text-gray-900 rounded-md px-2' />
-      <button type="submit" className='border rounded-md px-2'>ADD</button>
+      <button type="submit" className=' rounded-md px-2 bg-gray-700 text-gray-200 py-1'>ADD</button>
     </form>
   );
 };

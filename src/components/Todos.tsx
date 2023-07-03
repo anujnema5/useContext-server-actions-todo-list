@@ -43,7 +43,7 @@ const Todos: FC<Props> = () => {
 
                     {
                         todo.completed && (
-                            <button type='button' onClick={() => todos?.handleTodoDelete(todo.id)} className='bg-gray-900 px-3 rounded-lg'>Delete</button>
+                            <button type='button' onClick={() => todos?.handleTodoDelete(todo.id)} className='bg-gray-700 px-3 rounded-lg'>Delete</button>
                         )
                     }
                 </div>
