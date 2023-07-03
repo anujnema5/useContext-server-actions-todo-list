@@ -33,7 +33,7 @@ const Todos: FC<Props> = () => {
     return (
         <ul className=''>
             {_filterTodos?.map((todo) => (
-                <div className='flex gap-3 my-4'>
+                <div className='flex gap-3 my-4' key={todo.id}>
                     <li>{todo.task}</li>
                     <input type="checkbox" name="" id={todo.id}
                         onChange={() => todos?.toggleTodoAsCompleted(todo.id)} checked={todo.completed} />

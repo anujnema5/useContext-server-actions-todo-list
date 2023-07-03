@@ -48,7 +48,6 @@ export const TodosProvider = ({ children }: { children: ReactNode }) => {
                 return task;
             })
             localStorage.setItem("todos", JSON.stringify(updatedTodos));
-
             return updatedTodos;
         })
     }
