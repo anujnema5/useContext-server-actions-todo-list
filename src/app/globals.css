@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.active {
+  color: rgb(175, 175, 175);
+}
